@@ -31,12 +31,9 @@ This is not a full hamiltonian cycle, since it would be impossible for it to be,
 ### Why it works
 Let this be a game on a 2x2 snake grid, where E is an empty space, A is an apple, H is the snake's Head and S is a part of the snake's body.
 1. size: 1
-
-```
 ```
     E A
     E H
-```
 ```
 
 2. size: 2
@@ -46,14 +43,12 @@ Let this be a game on a 2x2 snake grid, where E is an empty space, A is an apple
 ```
 
 3. size: 3
-
 ```
     H S
     A S
 ```
 
 4. size: 4
-
 ```
     S S
     H S
@@ -62,14 +57,12 @@ Let this be a game on a 2x2 snake grid, where E is an empty space, A is an apple
 At this point, the game would end (see rule 13), and the player would win, but notice that the snake occupies 4 squares and if the game were to not end, the snake could keep spinning infinitly, since it can never catch it's tail (see rule 9):
 
 5. size: 4
-
 ```
     S S
     S H
 ```
 
 6. size: 4
-
 ```
     S H
     S S
